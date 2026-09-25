@@ -1,0 +1,31 @@
+date,description,amount,category,account
+2026-09-01,Swiggy,350,Food,UPI
+2026-09-02,Amazon,1200,Shopping,UPI
+2026-09-03,Metro,100,Travel,UPI
+2026-09-04,Netflix,299,Entertainment,Card
+2026-09-05,BigBasket,850,Groceries,UPI
+2026-09-06,Swiggy,420,Food,UPI
+2026-09-07,Amazon,650,Shopping,Card
+2026-09-08,Uber,280,Travel,UPI
+2026-09-09,Spotify,119,Entertainment,Card
+2026-09-10,Reliance Fresh,920,Groceries,UPI
+2026-09-11,Swiggy,300,Food,UPI
+2026-09-12,Book Store,750,Education,Cash
+2026-09-13,Uber,220,Travel,UPI
+2026-09-14,Amazon,999,Shopping,UPI
+2026-09-15,Swiggy,380,Food,UPI
+2026-09-16,Netflix,299,Entertainment,Card
+2026-09-17,BigBasket,680,Groceries,UPI
+2026-09-18,College Fees,2500,Education,Bank
+2026-09-19,Uber,310,Travel,UPI
+2026-09-20,Amazon,450,Shopping,UPI
+2026-09-21,Swiggy,290,Food,UPI
+2026-09-22,Pharmacy,500,Health,UPI
+2026-09-23,Metro,100,Travel,Cash
+2026-09-24,Swiggy,450,Food,UPI
+2026-09-25,Amazon,780,Shopping,Card
+2026-09-26,BigBasket,760,Groceries,UPI
+2026-09-27,Spotify,119,Entertainment,Card
+2026-09-28,Book Store,500,Education,Cash
+2026-09-29,Uber,260,Travel,UPI
+2026-09-30,Swiggy,360,Food,UPI
