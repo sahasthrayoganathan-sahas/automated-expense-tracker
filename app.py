@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
@@ -12,7 +13,7 @@ st.title("💰 Automated Expense Tracker & Analyzer")
 st.write("Upload your expense CSV file to analyze your spending.")
 
 uploaded_file = st.file_uploader(
-    "Upload your expenses CSV file",
+    "Upload a different expense CSV file (optional)",
     type=["csv"]
 )
 
@@ -21,6 +22,15 @@ if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
 
     st.success("Expense data loaded successfully!")
+else:
+    default_file = "data/expenses2.csv"
+
+    if os.path.exists(default_file):
+        df = pd.read_csv(default_file)
+        st.info("Sample expense data loaded automatically.")
+    else:
+        st.error("Sample data file not found. Please upload a CSV file.")
+        st.stop()
 
     # Clean column names
     df.columns = df.columns.str.strip().str.lower()
@@ -121,6 +131,3 @@ if uploaded_file is not None:
 
     st.success("Analysis completed successfully! 🎉")
 
-else:
-
-    st.info("Please upload your expenses CSV file to begin.")
